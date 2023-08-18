@@ -34,9 +34,9 @@ export function updateProductSuccess(product) {
 }
 export function saveProductApi(product) {
   return fetch("http://localhost:3000/products/" + product.id || "", {
-    method: product.id ? "PUT" : "POST", // eğer id'si varsa PUT yani güncelle, id'si yoksa POST yani yeni bir ürün ekle
-    headers: { "content-type": "application/json" }, //  HTTP isteğinin başlığına bir Content-Type alanı ekleyecektir
-    body: JSON.stringify(product), // stringify (stringleştirir. requestler stringtir.), body göndereceğimiz datadır.
+    method: product.id ? "PUT" : "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(product),
   })
     .then(handleResponse)
     .catch(handleError);
