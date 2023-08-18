@@ -17,10 +17,10 @@ running the json file on 3000.port with json-server. Responsive design was used 
 <div>
   <storng>npm install</storng> (with npm) </br>
   <storng>yarn</storng> (or with yarn)
-</div> 
+</div> </br>
 <p>
 3. Install json-server
-</p> </br>
+</p>
 <div>
   npm install -g json-server
 </div>
