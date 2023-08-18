@@ -35,10 +35,10 @@ json-server --watch db.json
 </div> </br>
 <p>
 5. Start the server
-</p> </br>
+</p>
 <div>
   npm start [OR] yarn start
-</div>
+</div> </br>
 <p>
 6. Now run the app
 </p>
