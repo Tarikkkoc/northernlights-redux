@@ -23,7 +23,7 @@ running the json file on 3000.port with json-server. Responsive design was used 
 </p>
 <div>
   npm install -g json-server
-</div>
+</div> </br>
 <p>
 4. Start the api
 </p>
